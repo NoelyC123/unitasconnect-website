@@ -9,7 +9,7 @@ import AnimateIn from "./AnimateIn";
 // 2. Create a new form and copy your Form ID (looks like: xrgvqnrp)
 // 3. Replace YOUR_FORM_ID below with your actual ID
 // ──────────────────────────────────────────────────────────────────────────────
-const FORMSPREE_ENDPOINT = "https://formspree.io/f/YOUR_FORM_ID";
+const FORMSPREE_ENDPOINT = "https://formspree.io/f/xvzwrdjy";
 
 type Status = "idle" | "sending" | "success" | "error";
 

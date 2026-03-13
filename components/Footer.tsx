@@ -1,3 +1,5 @@
+import LogoMark from "./LogoMark";
+
 const navLinks = [
   { label: "Services", href: "#services" },
   { label: "About", href: "#about" },
@@ -11,17 +13,45 @@ export default function Footer() {
       <div className="max-w-6xl mx-auto px-6 py-16">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
           {/* Brand */}
-          <div className="flex flex-col gap-4">
-            <span className="font-bold text-xl tracking-tight" style={{ color: "#f8f4ee" }}>
-              Unitas<span style={{ color: "#c9923a" }}>Connect</span>
-            </span>
+          <div className="flex flex-col gap-5">
+            <div className="flex items-center gap-3">
+              <LogoMark size={32} variant="light" />
+              <span>
+                <span
+                  className="font-bold text-lg tracking-tight"
+                  style={{ color: "#f8f4ee", fontFamily: "Georgia, serif" }}
+                >
+                  Unitas
+                </span>
+                <span
+                  className="font-normal text-lg tracking-tight"
+                  style={{ color: "#c9923a", fontFamily: "Georgia, serif" }}
+                >
+                  Connect
+                </span>
+              </span>
+            </div>
             <p className="text-sm leading-relaxed" style={{ color: "#6b7f95" }}>
-              Funding. Strategy. Growth.
+              Funding · Strategy · Growth
             </p>
             <p className="text-sm leading-relaxed" style={{ color: "#6b7f95" }}>
-              Expert consultancy for charities, VCSEs, SMEs and community
-              organisations across the UK.
+              Practical, hands-on consultancy for VCSEs, SMEs, CICs and
+              community organisations across the UK.
             </p>
+            {/* LinkedIn */}
+            <a
+              href="https://linkedin.com/in/noel-collins-1231002b"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 text-sm transition-opacity hover:opacity-70"
+              style={{ color: "#a8b4c4" }}
+            >
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z" />
+                <circle cx="4" cy="4" r="2" />
+              </svg>
+              LinkedIn
+            </a>
           </div>
 
           {/* Navigation */}
@@ -62,6 +92,11 @@ export default function Footer() {
             >
               Book a Free Discovery Call →
             </a>
+            <p className="text-xs mt-2" style={{ color: "#4a5a6a" }}>
+              Based in Cumbria
+              <br />
+              Serving organisations across the UK
+            </p>
           </div>
         </div>
 
@@ -71,7 +106,7 @@ export default function Footer() {
           style={{ borderTop: "1px solid #252c3f", color: "#4a5a6a" }}
         >
           <p>© {new Date().getFullYear()} UnitasConnect. All rights reserved.</p>
-          <p>Registered in England & Wales</p>
+          <p>Sole trader registered with HMRC · England</p>
         </div>
       </div>
     </footer>

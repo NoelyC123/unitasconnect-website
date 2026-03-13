@@ -1,9 +1,9 @@
 import AnimateIn from "./AnimateIn";
 
 const bullets = [
-  "We write the funding bids — you keep the mission.",
-  "We build the strategy — you lead with confidence.",
-  "We manage the complexity — you get the results.",
+  "Access the funding your organisation needs to deliver its mission.",
+  "Build the strategy and governance foundations that make growth sustainable.",
+  "Win the contracts and navigate procurement with confidence.",
 ];
 
 export default function HeroSection() {
@@ -15,14 +15,29 @@ export default function HeroSection() {
     >
       <div className="max-w-6xl mx-auto w-full">
         <div className="max-w-2xl">
-          {/* Label */}
+          {/* Location badge */}
           <AnimateIn delay={0}>
-            <p
-              className="text-xs font-semibold tracking-widest uppercase mb-6"
-              style={{ color: "#c9923a" }}
-            >
-              UnitasConnect — Consultancy
-            </p>
+            <div className="inline-flex items-center gap-2 mb-8">
+              <svg
+                width="13"
+                height="13"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="#c9923a"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              >
+                <path d="M17.657 16.657L13.414 20.9a2 2 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                <path d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+              </svg>
+              <span
+                className="text-xs font-medium tracking-widest uppercase"
+                style={{ color: "#6b7f95" }}
+              >
+                Cumbria · Lancashire · North West · UK-wide
+              </span>
+            </div>
           </AnimateIn>
 
           {/* Headline */}
@@ -45,9 +60,10 @@ export default function HeroSection() {
               className="text-lg sm:text-xl leading-relaxed mb-10"
               style={{ color: "#a8b4c4" }}
             >
-              We help charities, VCSEs, SMEs, and community organisations across
-              the UK access funding, build strategy, and deliver real results —
-              without the jargon.
+              Practical, hands-on consultancy for VCSEs, SMEs, CICs and
+              community organisations. We help you access the funding, contracts,
+              and strategic support you need to grow — and build the foundations
+              that make growth sustainable.
             </p>
           </AnimateIn>
 
@@ -60,12 +76,7 @@ export default function HeroSection() {
                     className="mt-1 shrink-0 w-5 h-5 rounded-full flex items-center justify-center"
                     style={{ backgroundColor: "rgba(201,146,58,0.15)" }}
                   >
-                    <svg
-                      width="12"
-                      height="12"
-                      viewBox="0 0 12 12"
-                      fill="none"
-                    >
+                    <svg width="12" height="12" viewBox="0 0 12 12" fill="none">
                       <path
                         d="M2 6l3 3 5-5"
                         stroke="#c9923a"
@@ -100,7 +111,7 @@ export default function HeroSection() {
                 href="#services"
                 className="inline-flex items-center justify-center px-8 py-4 text-base font-medium rounded transition-all hover:opacity-80"
                 style={{
-                  border: "1px solid #252c3f",
+                  border: "1px solid #2d3a4a",
                   color: "#a8b4c4",
                 }}
               >
@@ -109,12 +120,6 @@ export default function HeroSection() {
             </div>
           </AnimateIn>
         </div>
-
-        {/* Decorative element */}
-        <div
-          className="absolute bottom-0 right-0 w-1/2 h-px opacity-20 hidden lg:block"
-          style={{ background: "linear-gradient(to right, transparent, #c9923a)" }}
-        />
       </div>
     </section>
   );

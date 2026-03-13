@@ -2,13 +2,13 @@ import AnimateIn from "./AnimateIn";
 
 const credentials = [
   "IEMA Qualified",
-  "Health & Safety Certified",
-  "CDM Coordinator",
-  "Utilities & Infrastructure",
-  "Grant Writing Specialist",
+  "Health & Safety (NEBOSH/IOSH)",
+  "Funding Acquisition",
+  "Procurement & Bid Writing",
+  "Strategic Development",
   "Project Management",
-  "Strategic Planning",
-  "Bid Writing",
+  "Governance Support",
+  "Capacity Building",
 ];
 
 export default function AboutSection() {
@@ -19,7 +19,7 @@ export default function AboutSection() {
       style={{ backgroundColor: "#ffffff" }}
     >
       <div className="max-w-6xl mx-auto">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
           {/* Text content */}
           <div>
             <AnimateIn>
@@ -36,27 +36,39 @@ export default function AboutSection() {
             <AnimateIn delay={100}>
               <div className="flex flex-col gap-5 text-base leading-relaxed" style={{ color: "#4a5568" }}>
                 <p>
-                  With a background spanning utilities infrastructure, Health &amp;
-                  Safety, and community development, I founded UnitasConnect to
-                  give smaller organisations access to the same quality of
-                  expertise that large companies take for granted.
+                  I work with VCSEs, SMEs, CICs, and community organisations
+                  across the UK to help them access the funding, contracts, and
+                  strategic support they need to grow — and to build the
+                  organisational foundations that make growth sustainable.
                 </p>
                 <p>
-                  I hold IEMA qualifications, extensive Health &amp; Safety
-                  credentials, and CDM coordination experience. I&apos;ve managed
-                  complex multi-site projects, written successful funding bids
-                  worth hundreds of thousands of pounds, and helped organisations
-                  navigate everything from compliance to strategic transformation.
+                  My background spans funding acquisition, strategic development,
+                  project management, procurement, and organisational support. I
+                  hold IEMA qualifications and have a strong grounding in Health
+                  &amp; Safety, which means I bring a level of compliance
+                  awareness and operational rigour that goes beyond typical
+                  consultancy support — particularly useful for organisations
+                  scaling up, taking on contracts, or entering regulated
+                  environments for the first time.
                 </p>
                 <p>
-                  What I&apos;ve seen, again and again, is that charities, VCSEs,
-                  and community organisations are doing critical work — but they
-                  don&apos;t have access to expert support when they need it most.
+                  I&apos;ve worked across the voluntary, community, and small
+                  business sectors, and I understand the real pressures these
+                  organisations face — limited capacity, complex funding
+                  landscapes, and the constant challenge of balancing day-to-day
+                  operations with longer-term ambitions.
+                </p>
+                <p>
+                  What I offer is practical, tailored support. Not generic
+                  advice, but hands-on work alongside leaders and teams to secure
+                  funding, develop strategy, navigate procurement, and strengthen
+                  governance.
                 </p>
                 <p style={{ color: "#1a1f2e", fontWeight: 500 }}>
-                  That&apos;s why I built UnitasConnect. Expert knowledge, real
-                  experience, straight-talking approach — available to the
-                  organisations that need it most.
+                  I&apos;m particularly passionate about helping smaller
+                  organisations compete for opportunities that can feel out of
+                  reach — whether that&apos;s a major grant, a public sector
+                  contract, or a step-change in how they operate.
                 </p>
               </div>
             </AnimateIn>
@@ -82,12 +94,35 @@ export default function AboutSection() {
                 ))}
               </div>
             </AnimateIn>
+
+            {/* CTA quote */}
+            <AnimateIn delay={280} className="mt-10">
+              <div
+                className="p-6 rounded-xl"
+                style={{
+                  backgroundColor: "#f8f4ee",
+                  borderLeft: "3px solid #c9923a",
+                }}
+              >
+                <p className="text-base italic leading-relaxed" style={{ color: "#4a5568" }}>
+                  &ldquo;If your organisation is ready to grow, or simply needs
+                  experienced hands-on support to get there — let&apos;s talk.
+                  Discovery calls are always free.&rdquo;
+                </p>
+                <p className="text-sm font-semibold mt-3" style={{ color: "#1a1f2e" }}>
+                  Noel Collins, Founder — UnitasConnect
+                </p>
+                <p className="text-xs mt-0.5" style={{ color: "#9aa8b4" }}>
+                  Based in Cumbria · Serving organisations across the UK
+                </p>
+              </div>
+            </AnimateIn>
           </div>
 
           {/* Photo / visual block */}
-          <AnimateIn delay={150} className="flex justify-center">
+          <AnimateIn delay={150} className="flex justify-center lg:sticky lg:top-24">
             <div className="relative">
-              {/* Photo placeholder — replace src with your actual photo */}
+              {/* Photo placeholder — replace with your actual photo */}
               <div
                 className="w-80 h-96 rounded-2xl flex items-center justify-center overflow-hidden"
                 style={{
@@ -95,29 +130,39 @@ export default function AboutSection() {
                   border: "4px solid #ece6dd",
                 }}
               >
-                {/* Replace this div with <img src="/your-photo.jpg" alt="Your Name" className="w-full h-full object-cover" /> */}
+                {/*
+                  TO ADD YOUR PHOTO:
+                  1. Drop your image into /public/ (e.g. /public/noel.jpg)
+                  2. Replace this entire <div> block with:
+                     <img src="/noel.jpg" alt="Noel Collins, UnitasConnect" className="w-full h-full object-cover" />
+                */}
                 <div className="text-center px-8">
                   <div
-                    className="w-20 h-20 rounded-full mx-auto mb-4 flex items-center justify-center"
-                    style={{ backgroundColor: "rgba(201,146,58,0.2)" }}
+                    className="w-20 h-20 rounded-full mx-auto mb-5 flex items-center justify-center"
+                    style={{ backgroundColor: "rgba(201,146,58,0.15)" }}
                   >
                     <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#c9923a" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
                       <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2" />
                       <circle cx="12" cy="7" r="4" />
                     </svg>
                   </div>
-                  <p className="text-sm" style={{ color: "#6b7f95" }}>
-                    Add your photo here
+                  <p className="text-base font-semibold mb-1" style={{ color: "#f8f4ee" }}>
+                    Noel Collins
                   </p>
-                  <p className="text-xs mt-1" style={{ color: "#4a5568" }}>
-                    Replace this block in
+                  <p className="text-sm" style={{ color: "#6b7f95" }}>
+                    Founder, UnitasConnect
+                  </p>
+                  <p className="text-xs mt-3 leading-relaxed" style={{ color: "#4a5568" }}>
+                    Add your photo here —
+                    <br />
+                    see comment in
                     <br />
                     AboutSection.tsx
                   </p>
                 </div>
               </div>
 
-              {/* Decorative badge */}
+              {/* Credential badge */}
               <div
                 className="absolute -bottom-4 -right-4 px-5 py-3 rounded-xl shadow-lg"
                 style={{ backgroundColor: "#c9923a" }}
@@ -125,8 +170,8 @@ export default function AboutSection() {
                 <p className="text-xs font-bold" style={{ color: "#1a1f2e" }}>
                   IEMA Qualified
                 </p>
-                <p className="text-xs" style={{ color: "#1a1f2e", opacity: 0.8 }}>
-                  Health & Safety Expert
+                <p className="text-xs" style={{ color: "rgba(26,31,46,0.75)" }}>
+                  H&S · CDM · Procurement
                 </p>
               </div>
             </div>

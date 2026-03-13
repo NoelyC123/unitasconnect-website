@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
+import LogoMark from "./LogoMark";
 
 const navLinks = [
   { label: "Services", href: "#services" },
@@ -25,19 +26,34 @@ export default function Nav() {
     <header
       className="fixed top-0 left-0 right-0 z-50 transition-all duration-300"
       style={{
-        backgroundColor: scrolled ? "#1a1f2e" : "#1a1f2e",
-        boxShadow: scrolled ? "0 2px 20px rgba(0,0,0,0.3)" : "none",
+        backgroundColor: "#1a1f2e",
+        boxShadow: scrolled ? "0 2px 24px rgba(0,0,0,0.35)" : "none",
+        borderBottom: scrolled ? "1px solid #252c3f" : "1px solid transparent",
       }}
     >
       <div className="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
         {/* Logo */}
-        <a href="#hero" onClick={close} className="flex items-center gap-2 group">
-          <span
-            className="font-bold text-xl tracking-tight transition-opacity group-hover:opacity-80"
-            style={{ color: "#f8f4ee" }}
-          >
-            Unitas
-            <span style={{ color: "#c9923a" }}>Connect</span>
+        <a href="#hero" onClick={close} className="flex items-center gap-3 group">
+          <LogoMark size={34} variant="light" />
+          <span className="transition-opacity group-hover:opacity-80">
+            <span
+              className="font-bold text-lg tracking-tight"
+              style={{
+                color: "#f8f4ee",
+                fontFamily: "Georgia, 'Times New Roman', serif",
+              }}
+            >
+              Unitas
+            </span>
+            <span
+              className="font-normal text-lg tracking-tight"
+              style={{
+                color: "#c9923a",
+                fontFamily: "Georgia, 'Times New Roman', serif",
+              }}
+            >
+              Connect
+            </span>
           </span>
         </a>
 
@@ -47,7 +63,7 @@ export default function Nav() {
             <a
               key={link.href}
               href={link.href}
-              className="text-sm font-medium transition-colors hover:opacity-80"
+              className="text-sm font-medium transition-opacity hover:opacity-70"
               style={{ color: "#a8b4c4" }}
             >
               {link.label}
@@ -55,7 +71,7 @@ export default function Nav() {
           ))}
           <a
             href="#contact"
-            className="text-sm font-semibold px-5 py-2 rounded transition-all hover:opacity-90"
+            className="text-sm font-semibold px-5 py-2.5 rounded transition-all hover:opacity-90 hover:shadow-md"
             style={{
               backgroundColor: "#c9923a",
               color: "#1a1f2e",

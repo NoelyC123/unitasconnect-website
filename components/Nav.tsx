@@ -70,7 +70,9 @@ export default function Nav() {
             </a>
           ))}
           <a
-            href="#contact"
+            href="https://calendly.com/unitasconnect/30min"
+            target="_blank"
+            rel="noopener noreferrer"
             className="text-sm font-semibold px-5 py-2.5 rounded transition-all hover:opacity-90 hover:shadow-md"
             style={{
               backgroundColor: "#c9923a",
@@ -129,7 +131,9 @@ export default function Nav() {
             </a>
           ))}
           <a
-            href="#contact"
+            href="https://calendly.com/unitasconnect/30min"
+            target="_blank"
+            rel="noopener noreferrer"
             onClick={close}
             className="text-base font-semibold px-5 py-3 rounded text-center transition-all hover:opacity-90"
             style={{

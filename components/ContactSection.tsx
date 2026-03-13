@@ -92,11 +92,11 @@ export default function ContactSection() {
                 <div>
                   <p className="text-xs font-semibold tracking-widest uppercase mb-1" style={{ color: "#c9923a" }}>Email</p>
                   <a
-                    href="mailto:hello@unitasconnect.co.uk"
+                    href="mailto:UnitasConnect@hotmail.com"
                     className="text-base transition-opacity hover:opacity-70"
                     style={{ color: "#1a1f2e" }}
                   >
-                    hello@unitasconnect.co.uk
+                    UnitasConnect@hotmail.com
                   </a>
                 </div>
               </div>
@@ -112,17 +112,15 @@ export default function ContactSection() {
                 </div>
                 <div>
                   <p className="text-xs font-semibold tracking-widest uppercase mb-1" style={{ color: "#c9923a" }}>Book a Call</p>
-                  {/* Replace with your Calendly or booking link */}
                   <a
-                    href="#contact"
+                    href="https://calendly.com/unitasconnect/30min"
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="text-base transition-opacity hover:opacity-70"
                     style={{ color: "#1a1f2e" }}
                   >
                     Book a free 30-minute discovery call
                   </a>
-                  <p className="text-xs mt-1" style={{ color: "#9aa8b4" }}>
-                    (Replace href with your Calendly link)
-                  </p>
                 </div>
               </div>
 

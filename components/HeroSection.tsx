@@ -98,7 +98,9 @@ export default function HeroSection() {
           <AnimateIn delay={400}>
             <div className="flex flex-col sm:flex-row gap-4">
               <a
-                href="#contact"
+                href="https://calendly.com/unitasconnect/30min"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="inline-flex items-center justify-center px-8 py-4 text-base font-semibold rounded transition-all hover:opacity-90 hover:shadow-lg"
                 style={{
                   backgroundColor: "#c9923a",

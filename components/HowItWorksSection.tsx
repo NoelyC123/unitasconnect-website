@@ -106,7 +106,9 @@ export default function HowItWorksSection() {
         {/* CTA */}
         <AnimateIn className="mt-16 text-center">
           <a
-            href="#contact"
+            href="https://calendly.com/unitasconnect/30min"
+            target="_blank"
+            rel="noopener noreferrer"
             className="inline-flex items-center justify-center px-10 py-4 text-base font-semibold rounded transition-all hover:opacity-90"
             style={{ backgroundColor: "#c9923a", color: "#1a1f2e" }}
           >

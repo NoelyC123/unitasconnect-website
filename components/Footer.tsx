@@ -79,11 +79,11 @@ export default function Footer() {
               Get In Touch
             </p>
             <a
-              href="mailto:UnitasConnect@hotmail.com"
+              href="mailto:hello@unitasconnect.co.uk"
               className="text-sm transition-opacity hover:opacity-70"
               style={{ color: "#a8b4c4" }}
             >
-              UnitasConnect@hotmail.com
+              hello@unitasconnect.co.uk
             </a>
             <a
               href="https://calendly.com/unitasconnect/30min"

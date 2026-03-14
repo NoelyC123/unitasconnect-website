@@ -8,21 +8,21 @@ const testimonials = [
   {
     quote:
       "We'd been trying to secure funding for our community project for over a year with no success. UnitasConnect helped us reframe our application completely — we secured £28,000 from the National Lottery within six weeks. The difference was remarkable.",
-    name: "Helen W.",
+    name: "Anonymous",
     role: "Chair of Trustees",
     org: "Community CIC, Cumbria",
   },
   {
     quote:
       "Noel helped us put together our first ever public sector tender bid. It felt completely out of reach before — the language, the compliance requirements, the structure. We won the contract, and it's genuinely changed what our organisation can do.",
-    name: "Marcus T.",
+    name: "Anonymous",
     role: "Chief Executive",
     org: "Social Enterprise, Lancashire",
   },
   {
     quote:
       "The strategic planning support was grounded and practical. We came out with a three-year plan we actually believe in and use every week — not a glossy document that sits on a shelf.",
-    name: "Diane R.",
+    name: "Anonymous",
     role: "Director",
     org: "VCSE Organisation, North West",
   },

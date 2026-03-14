@@ -110,7 +110,7 @@ export default function BulletinSignup() {
                 <form onSubmit={handleSubmit} className="flex flex-col gap-5">
                   <div>
                     <p className="text-lg font-bold mb-1" style={{ color: "#1a1f2e" }}>
-                      Join 500+ organisations already signed up
+                      Join organisations already signed up
                     </p>
                     <p className="text-sm" style={{ color: "rgba(26,31,46,0.65)" }}>
                       No spam. Unsubscribe any time.
@@ -144,7 +144,7 @@ export default function BulletinSignup() {
 
                   {status === "error" && (
                     <p className="text-sm" style={{ color: "#7a1a1a" }}>
-                      Something went wrong — email us directly at UnitasConnect@hotmail.com
+                      Something went wrong — email us directly at hello@unitasconnect.co.uk
                     </p>
                   )}
 

@@ -119,10 +119,9 @@ export default function AboutSection() {
             </AnimateIn>
           </div>
 
-          {/* Photo / visual block */}
+          {/* Photo / visual block — add your image to /public/ and use <img src="/yourphoto.jpg" alt="Noel Collins, UnitasConnect" className="w-full h-full object-cover" /> */}
           <AnimateIn delay={150} className="flex justify-center lg:sticky lg:top-24">
             <div className="relative">
-              {/* Photo placeholder — replace with your actual photo */}
               <div
                 className="w-80 h-96 rounded-2xl flex items-center justify-center overflow-hidden"
                 style={{
@@ -130,12 +129,6 @@ export default function AboutSection() {
                   border: "4px solid #ece6dd",
                 }}
               >
-                {/*
-                  TO ADD YOUR PHOTO:
-                  1. Drop your image into /public/ (e.g. /public/noel.jpg)
-                  2. Replace this entire <div> block with:
-                     <img src="/noel.jpg" alt="Noel Collins, UnitasConnect" className="w-full h-full object-cover" />
-                */}
                 <div className="text-center px-8">
                   <div
                     className="w-20 h-20 rounded-full mx-auto mb-5 flex items-center justify-center"
@@ -151,13 +144,6 @@ export default function AboutSection() {
                   </p>
                   <p className="text-sm" style={{ color: "#6b7f95" }}>
                     Founder, UnitasConnect
-                  </p>
-                  <p className="text-xs mt-3 leading-relaxed" style={{ color: "#4a5568" }}>
-                    Add your photo here —
-                    <br />
-                    see comment in
-                    <br />
-                    AboutSection.tsx
                   </p>
                 </div>
               </div>

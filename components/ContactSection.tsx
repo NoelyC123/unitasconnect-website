@@ -92,11 +92,11 @@ export default function ContactSection() {
                 <div>
                   <p className="text-xs font-semibold tracking-widest uppercase mb-1" style={{ color: "#c9923a" }}>Email</p>
                   <a
-                    href="mailto:UnitasConnect@hotmail.com"
+                    href="mailto:hello@unitasconnect.co.uk"
                     className="text-base transition-opacity hover:opacity-70"
                     style={{ color: "#1a1f2e" }}
                   >
-                    UnitasConnect@hotmail.com
+                    hello@unitasconnect.co.uk
                   </a>
                 </div>
               </div>

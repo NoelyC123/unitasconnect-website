@@ -92,11 +92,11 @@ export default function ContactSection() {
                 <div>
                   <p className="text-xs font-semibold tracking-widest uppercase mb-1" style={{ color: "#c9923a" }}>Email</p>
                   <a
-                    href="mailto:hello@unitasconnect.co.uk"
+                    href="mailto:unitasconnect@hotmail.com"
                     className="text-base transition-opacity hover:opacity-70"
                     style={{ color: "#1a1f2e" }}
                   >
-                    hello@unitasconnect.co.uk
+                    unitasconnect@hotmail.com
                   </a>
                 </div>
               </div>
@@ -228,7 +228,7 @@ export default function ContactSection() {
 
                   {status === "error" && (
                     <p className="text-sm" style={{ color: "#e53e3e" }}>
-                      Something went wrong. Please email us directly at hello@unitasconnect.co.uk
+                      Something went wrong. Please email us directly at unitasconnect@hotmail.com
                     </p>
                   )}
 

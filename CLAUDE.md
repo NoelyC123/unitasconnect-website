@@ -22,6 +22,6 @@ Vercel auto-deploys from main branch.
 ## Rules
 - British English always
 - No placeholder text in production
-- Email: hello@unitasconnect.co.uk
+- Email: unitasconnect@hotmail.com
 - Calendly: https://calendly.com/unitasconnect/30min
 - No fake testimonials or placeholder numbers

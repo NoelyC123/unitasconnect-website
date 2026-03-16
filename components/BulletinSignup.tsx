@@ -144,7 +144,7 @@ export default function BulletinSignup() {
 
                   {status === "error" && (
                     <p className="text-sm" style={{ color: "#7a1a1a" }}>
-                      Something went wrong — email us directly at hello@unitasconnect.co.uk
+                      Something went wrong — email us directly at unitasconnect@hotmail.com
                     </p>
                   )}
 

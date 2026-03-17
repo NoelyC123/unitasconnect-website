@@ -1,19 +1,25 @@
 "use client";
 
 import { useState, useEffect } from "react";
+import { usePathname } from "next/navigation";
 import LogoMark from "./LogoMark";
 
-const navLinks = [
-  { label: "Services", href: "#services" },
-  { label: "About", href: "#about" },
-  { label: "How It Works", href: "#how-it-works" },
-  { label: "Blog", href: "/blog" },
-  { label: "Contact", href: "#contact" },
-];
+function withHomeHash(pathname: string, hash: string) {
+  return pathname === "/" ? hash : `/${hash}`;
+}
 
 export default function Nav() {
   const [open, setOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
+  const pathname = usePathname();
+
+  const navLinks = [
+    { label: "Home", href: "/" },
+    { label: "Services", href: withHomeHash(pathname, "#services") },
+    { label: "About", href: withHomeHash(pathname, "#about") },
+    { label: "Blog", href: "/blog" },
+    { label: "Contact", href: withHomeHash(pathname, "#contact") },
+  ];
 
   useEffect(() => {
     const handleScroll = () => setScrolled(window.scrollY > 20);
@@ -34,7 +40,7 @@ export default function Nav() {
     >
       <div className="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
         {/* Logo */}
-        <a href="#hero" onClick={close} className="flex items-center gap-3 group">
+        <a href="/" onClick={close} className="flex items-center gap-3 group">
           <LogoMark size={34} variant="light" />
           <span className="transition-opacity group-hover:opacity-80">
             <span

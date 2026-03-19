@@ -71,16 +71,14 @@ export default function Nav() {
             </a>
           ))}
           <a
-            href="https://calendly.com/unitasconnect/30min"
-            target="_blank"
-            rel="noopener noreferrer"
+            href="#contact"
             className="text-sm font-semibold px-5 py-2.5 rounded transition-all hover:opacity-90 hover:shadow-md"
             style={{
               backgroundColor: "#c9923a",
               color: "#1a1f2e",
             }}
           >
-            Book a Free Call
+            Request a Funding Review
           </a>
         </nav>
 
@@ -132,9 +130,7 @@ export default function Nav() {
             </a>
           ))}
           <a
-            href="https://calendly.com/unitasconnect/30min"
-            target="_blank"
-            rel="noopener noreferrer"
+            href="#contact"
             onClick={close}
             className="text-base font-semibold px-5 py-3 rounded text-center transition-all hover:opacity-90"
             style={{
@@ -142,7 +138,7 @@ export default function Nav() {
               color: "#1a1f2e",
             }}
           >
-            Book a Free Call
+            Request a Funding Review
           </a>
         </div>
       )}

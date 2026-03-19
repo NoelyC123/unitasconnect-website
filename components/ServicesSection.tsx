@@ -157,7 +157,7 @@ export default function ServicesSection() {
             className="inline-flex items-center justify-center px-8 py-4 text-base font-semibold rounded transition-all hover:opacity-90"
             style={{ backgroundColor: "#1a1f2e", color: "#f8f4ee" }}
           >
-            Book a Free Discovery Call
+            Request a Funding Review
           </a>
         </AnimateIn>
       </div>

@@ -100,13 +100,11 @@ export default async function BlogPost({
                 honest conversation about what would help your organisation.
               </p>
               <a
-                href="https://calendly.com/unitasconnect/30min"
-                target="_blank"
-                rel="noopener noreferrer"
+                href="#contact"
                 className="inline-flex items-center justify-center px-8 py-4 text-base font-semibold rounded transition-all hover:opacity-90"
                 style={{ backgroundColor: "#c9923a", color: "#1a1f2e" }}
               >
-                Book a Free Discovery Call
+                Request a Funding Review
               </a>
             </div>
           </div>

@@ -68,14 +68,12 @@ export default function ContactSection() {
               Get In Touch
             </p>
             <h2 className="text-4xl sm:text-5xl font-bold mb-6" style={{ color: "#1a1f2e" }}>
-              Let&apos;s talk about
-              <br />
-              your goals.
+              Request a Funding Review.
             </h2>
             <p className="text-base leading-relaxed mb-10" style={{ color: "#4a5568" }}>
-              Whether you&apos;ve got a specific project in mind or you&apos;re
-              just exploring your options — get in touch and we&apos;ll have an
-              honest conversation about what&apos;s possible.
+              Tell us about your organisation and we&apos;ll review your
+              funding landscape — identifying the grants and opportunities
+              that match your work.
             </p>
 
             {/* Contact details */}
@@ -90,7 +88,7 @@ export default function ContactSection() {
                   </svg>
                 </div>
                 <div>
-                  <p className="text-xs font-semibold tracking-widest uppercase mb-1" style={{ color: "#c9923a" }}>Email</p>
+                  <p className="text-xs font-semibold tracking-widest uppercase mb-1" style={{ color: "#c9923a" }}>EMAIL</p>
                   <a
                     href="mailto:unitasconnect@hotmail.com"
                     className="text-base transition-opacity hover:opacity-70"
@@ -107,20 +105,15 @@ export default function ContactSection() {
                   style={{ backgroundColor: "rgba(201,146,58,0.12)", color: "#c9923a" }}
                 >
                   <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                    <path d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                    <path d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4" />
                   </svg>
                 </div>
                 <div>
-                  <p className="text-xs font-semibold tracking-widest uppercase mb-1" style={{ color: "#c9923a" }}>Book a Call</p>
-                  <a
-                    href="https://calendly.com/unitasconnect/30min"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-base transition-opacity hover:opacity-70"
-                    style={{ color: "#1a1f2e" }}
-                  >
-                    Book a free 30-minute discovery call
-                  </a>
+                  <p className="text-xs font-semibold tracking-widest uppercase mb-1" style={{ color: "#c9923a" }}>HOW IT WORKS</p>
+                  <p className="text-base" style={{ color: "#1a1f2e" }}>
+                    Send us your details and we&apos;ll come back to you with a
+                    personalised funding summary tailored to your organisation.
+                  </p>
                 </div>
               </div>
 
@@ -135,7 +128,7 @@ export default function ContactSection() {
                   </svg>
                 </div>
                 <div>
-                  <p className="text-xs font-semibold tracking-widest uppercase mb-1" style={{ color: "#c9923a" }}>Location</p>
+                  <p className="text-xs font-semibold tracking-widest uppercase mb-1" style={{ color: "#c9923a" }}>LOCATION</p>
                   <p className="text-base" style={{ color: "#1a1f2e" }}>
                     Serving organisations across the UK
                   </p>
@@ -218,7 +211,7 @@ export default function ContactSection() {
                       name="message"
                       required
                       rows={5}
-                      placeholder="Tell us a bit about your organisation and what you're looking for..."
+                      placeholder="Tell us about your organisation — what you do, your area, and roughly how many people you support."
                       style={{ ...inputStyle, resize: "vertical" }}
                     />
                   </div>

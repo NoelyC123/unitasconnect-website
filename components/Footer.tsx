@@ -86,13 +86,11 @@ export default function Footer() {
               unitasconnect@hotmail.com
             </a>
             <a
-              href="https://calendly.com/unitasconnect/30min"
-              target="_blank"
-              rel="noopener noreferrer"
+              href="#contact"
               className="text-sm font-medium transition-opacity hover:opacity-70"
               style={{ color: "#c9923a" }}
             >
-              Book a Free Discovery Call →
+              Request a Funding Review →
             </a>
             <p className="text-xs mt-2" style={{ color: "#4a5a6a" }}>
               Based in Cumbria

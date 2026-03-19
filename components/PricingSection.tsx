@@ -1,7 +1,5 @@
 import AnimateIn from "./AnimateIn";
 
-const CALENDLY_URL = "https://calendly.com/unitasconnect/30min";
-
 export default function PricingSection() {
   return (
     <section
@@ -27,13 +25,11 @@ export default function PricingSection() {
             Start with a free discovery call. We&apos;ll talk through your situation, give you an honest view of what support would look like, and tell you exactly what it would cost — before any commitment.
           </p>
           <a
-            href={CALENDLY_URL}
-            target="_blank"
-            rel="noopener noreferrer"
+            href="#contact"
             className="inline-flex items-center justify-center px-10 py-4 text-base font-semibold rounded-lg transition-all hover:opacity-90 shadow-md"
             style={{ backgroundColor: "#c9923a", color: "#1a1f2e" }}
           >
-            Book a Free Call
+            Request a Funding Review
           </a>
         </AnimateIn>
       </div>

@@ -2,6 +2,94 @@
 // Each key matches the post slug in lib/posts.ts
 
 export const postContent: Record<string, React.ReactNode> = {
+  "the-hidden-cost-of-grant-applications": (
+    <div className="prose-content">
+      <p>
+        Applying for grants isn&apos;t free. Every application carries a real
+        cost in staff time, focus, and energy — and those costs can quietly
+        drain small teams when funding plans aren&apos;t strategic.
+      </p>
+      <p>
+        Before you apply for everything available, it&apos;s worth understanding
+        what each bid is actually costing your organisation.
+      </p>
+
+      <h2>1. The real cost of a grant application</h2>
+      <p>
+        A strong application can take anywhere from 8 to 25 hours once you
+        include planning, gathering evidence, writing, reviewing, and submitting
+        everything properly.
+      </p>
+      <p>
+        If that work is done internally, and staff time is valued at roughly
+        &pound;30 per hour, each application is likely to cost between
+        &pound;240 and &pound;750 before any funding decision is made. That
+        doesn&apos;t include the cost of follow-up clarifications, additional
+        documents, or rewriting for future rounds.
+      </p>
+
+      <h2>2. The opportunity cost of chasing the wrong funding</h2>
+      <p>
+        Time spent on poor-fit applications is time not spent delivering your
+        current work, strengthening impact data, building partnerships, or
+        developing better-aligned opportunities.
+      </p>
+      <p>
+        When teams are stretched, the hidden cost is often momentum. You can
+        end up busy all month, submit multiple bids, and still be no closer to
+        sustainable funding because the opportunities were never right in the
+        first place.
+      </p>
+
+      <h2>3. Three questions to ask before applying</h2>
+      <p>
+        Before committing hours to a bid, pressure-test the opportunity with
+        three simple questions:
+      </p>
+      <ul>
+        <li>
+          <strong>Funder fit:</strong> Does this funder regularly support work
+          like yours, with similar beneficiaries and outcomes?
+        </li>
+        <li>
+          <strong>Eligibility:</strong> Are you fully eligible on legal
+          structure, geography, project type, and timelines?
+        </li>
+        <li>
+          <strong>Proportionality of effort:</strong> Is the likely award value
+          proportionate to the time and resource needed to apply and report?
+        </li>
+      </ul>
+      <p>
+        If one of these answers is weak, it&apos;s usually a sign to pause or
+        redirect effort.
+      </p>
+
+      <h2>4. Why selective beats applying for everything</h2>
+      <p>
+        Selective organisations don&apos;t apply less because they lack ambition.
+        They apply smarter. A shorter list of high-fit funders typically
+        improves quality, protects staff capacity, and increases success rates
+        over time.
+      </p>
+      <p>
+        Applying for everything can feel productive, but strategic selectivity
+        is what usually produces better outcomes.
+      </p>
+
+      <h2>The bottom line</h2>
+      <p>
+        Grant applications are an investment. Treating them as such helps you
+        focus on opportunities with real potential, rather than expensive
+        distractions.
+      </p>
+      <p>
+        If you want help assessing your current pipeline and choosing which
+        opportunities are worth pursuing, book a free discovery call with
+        UnitasConnect.
+      </p>
+    </div>
+  ),
   "how-to-write-a-successful-grant-application": (
     <div className="prose-content">
       <p>

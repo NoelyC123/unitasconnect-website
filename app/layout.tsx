@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Playfair_Display, DM_Sans } from "next/font/google";
+import { Analytics } from "@vercel/analytics/next";
 import "./globals.css";
 
 const playfair = Playfair_Display({
@@ -68,7 +69,10 @@ gtag('config', 'G-67PFK1BT3Z');
           }}
         />
       </head>
-      <body className={`${playfair.variable} ${dmSans.variable}`}>{children}</body>
+      <body className={`${playfair.variable} ${dmSans.variable}`}>
+        {children}
+        <Analytics />
+      </body>
     </html>
   );
 }
